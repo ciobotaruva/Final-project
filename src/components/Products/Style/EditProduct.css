@@ -1,0 +1,85 @@
+.edit-product-css, .edit-product-css form, .edit-product-css form, .edit-product-css .product-info > div, .product-info button{
+    display: flex;
+}
+
+.edit-product-css{
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.edit-product-css form{
+    height:60vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.edit-product-css form{   
+    width:100%;
+}
+
+.edit-product-css .product-info > div{   
+    flex-direction: column;
+    margin: 10px;
+}
+
+.product-info{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.product-info button{
+    justify-content: flex-start;
+}
+
+.edit-product-css textarea {
+    width:400px;
+    height: 50px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+.edit-btn{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.edit-product-css h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 840px){
+    .edit-product-css{
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .edit-product-css h1{
+        font-size: 20px;
+    }
+
+    .product-info{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    .edit-product-css{
+        align-items: center;
+        margin-top: 140px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .edit-product-css textarea {
+        width:300px;
+        height: 50px;
+        border: 1px solid aqua;
+        border-radius: 5px;
+    }
+
+    .edit-product-css h1{
+        font-size: 16px;
+    }
+}
